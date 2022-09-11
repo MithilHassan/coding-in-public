@@ -1,0 +1,30 @@
+.container {
+  margin: 50px auto;
+  width: 1280px;
+}
+.filter {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+.filter p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.filter small {
+  font-size: 18px;
+  filter: brightness(0.8);
+}
+.filter input {
+  width: 100%;
+  border: transparent;
+  background: transparent;
+  font-size: 24px;
+  padding: 10px;
+  border-bottom: 5px solid #febc2e;
+  outline: transparent;
+}
+.filter input:focus {
+  color: #fff;
+}

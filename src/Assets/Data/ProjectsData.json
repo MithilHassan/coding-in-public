@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "image": "https://img.youtube.com/vi/7u2Rv4HfCYQ/maxresdefault.jpg",
+    "title": "React ToDo Local Storage",
+    "text": "During the course of this series, we’ll use React to build out a todo app that saves and loads to local storage.",
+    "tags": ["React", "Vite JS", "Local Storage"]
+  },
+  {
+    "id": 2,
+    "image": "https://img.youtube.com/vi/s84yXvLOoio/maxresdefault.jpg",
+    "title": "One Thing React App",
+    "text": "In this series, we’ll build out a simple React project to introduce important React concepts like components, props, state, and more.",
+    "tags": ["Tailwind CSS", "React", "Vite JS", "postcss"]
+  },
+  {
+    "id": 3,
+    "image": "https://img.youtube.com/vi/RipdRoTnvJQ/maxresdefault.jpg",
+    "title": "Parallax Landing Page",
+    "text": "In this series, we’ll build out a parallax landing page using Tailwind, HTML, and JavaScript.",
+    "tags": ["Tailwind CSS", "Sass", "Scss"]
+  },
+  {
+    "id": 4,
+    "image": "https://img.youtube.com/vi/xpGNcQDmV2A/maxresdefault.jpg",
+    "title": "Tailwind Landing Page",
+    "text": "I’ll show the basics of Tailwind 3, including how to customize and extend it. Then we’ll build out a fully-responsive light/dark mode landing page from scratch.",
+    "tags": ["Tailwind CSS", "js", "Vite JS"]
+  },
+  {
+    "id": 5,
+    "image": "https://img.youtube.com/vi/63sxOYm9GwY/maxresdefault.jpg",
+    "title": "Responsive Navigation",
+    "text": "In this video, I'll show you how to create a fully responsive navigation menu with HTML, CSS, and Vanilla JavaScript. We’ll add aria attributes to achieve a basic accessible navigation.",
+    "tags": ["CSS", "js"]
+  },
+  {
+    "id": 6,
+    "image": "https://img.youtube.com/vi/jyjScZWgzIg/maxresdefault.jpg",
+    "title": "Figma-to-Astro",
+    "text": "This project done for the Net Ninja channel is a full design-to-code landing page. We’ll use Figma for design and the Astro SSG for the code.",
+    "tags": ["Figma", "Astro SSG", "js", "postcss", "Open Props"]
+  },
+  {
+    "id": 7,
+    "image": "https://img.youtube.com/vi/SOsGToYI0MQ/maxresdefault.jpg",
+    "title": "Calendar Event Page",
+    "text": "Using the Google Calendar API, we’ll build out a custom event’s page with Tailwind CSS and vanilla JavaScript. We’ll also setup a Netlify serverless function to safely handle the API calls.",
+    "tags": [
+      "Tailwind CSS",
+      "netlify",
+      "js",
+      "Vite JS",
+      "postcss",
+      "serverless functions"
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://img.youtube.com/vi/tYKlLQmg6OM/maxresdefault.jpg",
+    "title": "Analogue Clocks",
+    "text": "We’ll build custom SVG world clocks in both functional and object oriented programming styles using the requestAnimationFrame API and the date-fns library.",
+    "tags": ["svg", "CSS", "js", "Parcel JS"]
+  },
+  {
+    "id": 9,
+    "image": "https://img.youtube.com/vi/5rMC4QJdRSU/maxresdefault.jpg",
+    "title": "Password Generator",
+    "text": "In this video, we’ll use ParcelJS, Tailwind CSS, and an npm package called Check Password Strength to write a custom password generator app.",
+    "tags": ["postcss", "Tailwind CSS", "Parcel JS"]
+  },
+  {
+    "id": 10,
+    "image": "https://img.youtube.com/vi/mukkm6o6Pjw/maxresdefault.jpg",
+    "title": "Notion CMS",
+    "text": "In this series, we’ll create a light-weight CMS using a Notion database, the Notion SKD for JavaScript, a Netlify serverless function with the Netlify CLI, and a few other tools.",
+    "tags": ["notion", "CSS", "netlify", "js", "Vite JS"]
+  },
+  {
+    "id": 11,
+    "image": "https://img.youtube.com/vi/AxD9slgNDJI/maxresdefault.jpg",
+    "title": "Accordion Component",
+    "text": "In this video, we’ll create an accessible accordion component with HTML, CSS, and JavaScript that will include keyboard events, ARIA attributes, ARIA roles, and more.",
+    "tags": ["CSS", "js"]
+  },
+  {
+    "id": 12,
+    "image": "https://img.youtube.com/vi/H5zTYYOX1to/maxresdefault.jpg",
+    "title": "Popup Gallery",
+    "text": "In this series, we’ll create a popup modal with an infinite image slider with HTML, CSS, and JavaScript. Click on any image open its custom gallery.",
+    "tags": ["CSS", "js"]
+  },
+  {
+    "id": 13,
+    "image": "https://img.youtube.com/vi/wc5Bb5dbZJU/maxresdefault.jpg",
+    "title": "Blog Post Filter",
+    "text": "In this project, we use client-side JavaScript, HTML, and CSS to build out a fully-responsive blog post filter. As site visitors type, the JS filters 600 posts and dynamically displays the most recent posts matching the query.",
+    "tags": ["CSS", "js"]
+  },
+  {
+    "id": 14,
+    "image": "https://img.youtube.com/vi/nGs8c2rfQt0/maxresdefault.jpg",
+    "title": "Tab Component",
+    "text": "In this project, we’ll build out a tab component, focusing especially on accessibility and object oriented programming.",
+    "tags": ["CSS", "js"]
+  },
+  {
+    "id": 15,
+    "image": "https://img.youtube.com/vi/zD71BgBpryE/maxresdefault.jpg",
+    "title": "Blog Post Layout",
+    "text": "Laying out a page with grid and flex box can be confusing. In this two part series, I’ll show you how to layout a page using a combination of grid and flex box. We’ll create a fully-responsive design with modern CSS.",
+    "tags": ["CSS", "js"]
+  },
+  {
+    "id": 16,
+    "image": "https://img.youtube.com/vi/6YrOGKmGTCY/maxresdefault.jpg",
+    "title": "Light Dark",
+    "text": "In this series, we’ll convert a site using hard-coded colors to use css variables, let the site automatically respond to the user’s system theme, and then manually choose betwen light and dark mode.",
+    "tags": ["CSS", "js", "Vite JS"]
+  },
+  {
+    "id": 17,
+    "image": "https://img.youtube.com/vi/lXuMz73XgM4/maxresdefault.jpg",
+    "title": "Review Slider",
+    "text": "Learn how to load and parse data from a JSON file, update the UI with customer reviews, and create an infinite carousel without transitions.",
+    "tags": ["CSS", "js"]
+  },
+  {
+    "id": 18,
+    "image": "https://img.youtube.com/vi/b9ADasJ_A04/maxresdefault.jpg",
+    "title": "Image Slider",
+    "text": "Learn how to load and parse data from a JSON file, update the UI with images, clone the first and last elements, and create an infinite carousel slider with transitions.",
+    "tags": ["CSS", "js", "Vite JS"]
+  },
+  {
+    "id": 19,
+    "image": "https://img.youtube.com/vi/GOW1oxrwUz0/maxresdefault.jpg",
+    "title": "Coffee Recipes",
+    "text": "In this video, we’ll build a recipe app from scratch using Bootstrap and Vanilla JavaScript.",
+    "tags": ["CSS", "js", "Bootstrap CSS"]
+  },
+  {
+    "id": 20,
+    "image": "https://img.youtube.com/vi/dSpoe873JCE/maxresdefault.jpg",
+    "title": "Audio Player",
+    "text": "We’re building out a fully-responsive audio music player with plain 'ol HTML, CSS, and JavaScript. We’ll be pulling the info from a “server” and then using that data to populate the UI and play the audio.",
+    "tags": ["CSS", "js"]
+  },
+  {
+    "id": 21,
+    "image": "https://img.youtube.com/vi/gvtxYX4sw08/maxresdefault.jpg",
+    "title": "Notes App",
+    "text": "In this three-part project, we’ll build a note taking app from scratch. We’ll use only HTML, CSS (well, SCSS), and Javascript and store all notes in the user’s local storage.",
+    "tags": ["CSS", "js", "Parcel JS"]
+  }
+]
