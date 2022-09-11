@@ -1,0 +1,52 @@
+nav {
+  background-color: #1c1e2b;
+  border-bottom: 8px solid #651ef4;
+}
+.navbar {
+  height: 100px;
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0px;
+}
+.logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 60px;
+  gap: 10px;
+}
+.logo img {
+  height: 60px;
+}
+.logo p {
+  font-size: 40px;
+  color: #fff;
+}
+.menubar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 24px;
+}
+.menu-item {
+  list-style: none;
+}
+.menu-link {
+  color: #fff;
+  transition: all 0.1s linear;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.menu-link svg {
+  filter: brightness(0.2);
+  transition: all 0.1s linear;
+}
+.menu-link:hover {
+  filter: brightness(0.8);
+}
+.menu-link:hover svg {
+  filter: brightness(1);
+}
