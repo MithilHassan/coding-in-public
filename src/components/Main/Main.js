@@ -24,6 +24,16 @@ function Main() {
             </h2>
           </div>
         </div>
+
+        <aside className="callout">
+          <HiOutlineLightBulb />
+          <div className="callout-content">
+            <p>
+              I could be wrong, but now I feel like you’re just in a pattern of
+              clicking stuff. True?
+            </p>
+          </div>
+        </aside>
         <div className="desc">
           <div className="avatar">
             <img src={avatar} alt="avatar" />
@@ -47,16 +57,6 @@ function Main() {
             </a>
           </div>
         </div>
-
-        <aside className="callout">
-          <HiOutlineLightBulb />
-          <div className="callout-content">
-            <p>
-              I could be wrong, but now I feel like you’re just in a pattern of
-              clicking stuff. True?
-            </p>
-          </div>
-        </aside>
         <div className="links">
           <h2>Key Links</h2>
           <div className="key-container">

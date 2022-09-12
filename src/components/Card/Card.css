@@ -1,5 +1,5 @@
 .card-container {
-  width: 1280px;
+  max-width: 1280px;
   margin: 50px auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -50,4 +50,26 @@
 }
 .tags a:hover {
   background-color: #383b56;
+}
+@media (max-width: 1024px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 540px) {
+  .card-title {
+    font-size: 28px;
+  }
+  .card-desc {
+    font-size: 18px;
+  }
+  .card-content,
+  .tags {
+    padding: 20px;
+  }
 }

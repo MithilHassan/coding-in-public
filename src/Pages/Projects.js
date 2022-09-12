@@ -6,18 +6,18 @@ import Data from "../Assets/Data/ProjectsData.json";
 function Projects() {
   const [data, setData] = useState([]);
   const [search, setSearch] = useState("");
-
+  console.log(search);
   useEffect(() => {
     setData(Data);
   }, []);
   return (
-    <section style={{ borderBottom: "10px solid #651ef4" }}>
+    <>
       <Header></Header>
-      <div id="projects">
+      <div id="projects" style={{ padding: "0px 20px" }}>
         <Filter setSearch={setSearch} data={data}></Filter>
         <Card data={data} search={search}></Card>
       </div>
-    </section>
+    </>
   );
 }
 

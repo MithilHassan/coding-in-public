@@ -1,9 +1,9 @@
 .container {
-  margin: 50px auto;
-  width: 1280px;
+  margin: 20px auto;
+  max-width: 1280px;
 }
 .filter {
-  width: 50%;
+  max-width: 600px;
   margin: 0 auto;
   text-align: center;
   color: #fff;
@@ -12,19 +12,36 @@
   font-size: 24px;
   margin-bottom: 20px;
 }
-.filter small {
-  font-size: 18px;
-  filter: brightness(0.8);
-}
+
 .filter input {
   width: 100%;
   border: transparent;
   background: transparent;
   font-size: 24px;
   padding: 10px;
-  border-bottom: 5px solid #febc2e;
+  border-bottom: 5px solid #651ef4;
   outline: transparent;
 }
 .filter input:focus {
   color: #fff;
+}
+.filter-tags {
+  margin: 20px auto;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  border: 3px solid #febc2e;
+  padding: 20px;
+  border-radius: 20px;
+}
+.filter-tags button:focus {
+  background: #651ef4;
+}
+@media (max-width: 768px) {
+  .filter p,
+  .filter input {
+    font-size: 20px;
+  }
 }

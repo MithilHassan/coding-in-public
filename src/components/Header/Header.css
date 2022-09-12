@@ -1,14 +1,15 @@
 nav {
-  background-color: #1c1e2b;
+  width: 100vw;
+  padding: 0px 20px;
   border-bottom: 8px solid #651ef4;
 }
 .navbar {
-  height: 12vh;
-  width: 1280px;
   margin: 0 auto;
+  min-height: 12vh;
+  max-width: 1280px;
   display: flex;
   justify-content: space-between;
-  padding: 24px 0px;
+  padding: 25px 0px;
 }
 .logo {
   text-decoration: none;
@@ -49,4 +50,17 @@ nav {
 }
 .menu-link:hover svg {
   filter: brightness(1);
+}
+@media (max-width: 768px) {
+  .menubar {
+    display: none;
+  }
+  .logo p {
+    font-size: 32px;
+  }
+}
+@media (max-width: 540px) {
+  .logo p {
+    font-size: 28px;
+  }
 }
