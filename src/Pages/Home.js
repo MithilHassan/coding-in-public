@@ -9,6 +9,7 @@ import { FiGithub, FiCodepen, FiTwitter, FiCoffee } from "react-icons/fi";
 import { RiPatreonLine } from "react-icons/ri";
 import "./Home.css";
 import avatar from "../images/ciphead.png";
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <main>
@@ -51,19 +52,19 @@ function Home() {
             >
               Watch Tutorials <HiOutlineVideoCamera />
             </a>
-            <a href="/projects" className="btn-filled">
+            <Link to="projects" className="btn-filled">
               View Projects
               <HiOutlinePresentationChartBar />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="links">
           <h2>Key Links</h2>
           <div className="key-container">
-            <a href="/projects" className="btn-outline">
+            <Link to="projects" className="btn-outline">
               Projects
               <HiOutlinePresentationChartBar />
-            </a>
+            </Link>
             <a
               href="https://www.youtube.com/c/CodinginPublic"
               target="_blank"
