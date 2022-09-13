@@ -12,12 +12,15 @@ function Header() {
         </a>
         <div className="menubar">
           <li className="menu-item">
-            <a className="menu-link" href="/live-projects">
+            <a className="menu-link" href="/projects">
               Live Projects
             </a>
           </li>
           <li className="menu-item">
-            <a className="menu-link" href="/youtube">
+            <a
+              className="menu-link"
+              href="https://www.youtube.com/c/CodinginPublic"
+            >
               Youtube <FiExternalLink />
             </a>
           </li>
